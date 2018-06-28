@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="/ui/style.css" rel="stylesheet" />
+        <meta name ="viewport" content="width=device-width, initial-scale=1"/> 
+    </head>
+    <body>
+        <nav>
+            <a href="/articles/1">Raspberry Pi &nbsp;&nbsp;</a>
+            <a href="/articles/2">Arduino&nbsp;&nbsp; </a>
+            <a href="/articles/3">About Me</a>
+            </nav>
+            <hr>
+            <br>
+            <p>Click on the Image to move the Image</p>
+            <p>Click repeatedly the Image to move it Faster</p>
+            <div class="center">
+                <img src="/ui/madi.png" id = 'madi' class="img-medium"/>
+            </div>
+            <br>
+            
+            <div class="center text-big bold">
+                Hi i'm Anand Choudhary. And this is my Home Page.
+            </div>
+            <br>
+            <hr>
+            <button style="margin:auto;display:block" class="center text-big" onclick="load_counter()">Click me! </button><br>
+            <div class="center text-big">
+                Counter --> <span id="count"></span> .
+            </div>
+            <hr>
+            <input type="text" placeholder="Enter Name" id="name">
+            <input type="submit" value="Submit" onclick="submit()">
+            <ul id="namelist"></ul>
+        
+        <script type="text/javascript" src="/ui/main.js"></script>
+    </body>
+</html>
