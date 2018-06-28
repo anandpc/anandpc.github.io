@@ -6,11 +6,14 @@ header{
 	background-color:#424242;
 	box-shadow: 5px 8px #616161;
 }
-img{
+footer{
+	color:#FAFAFA
+}
+#logo{
 	max-height:70px;
 	max-width:70px;
 }
-.body{
-	max-height:700px;
-	max-width:700px;
+#container>img{
+	max-height:800px;
+	max-width:600px;
 }
