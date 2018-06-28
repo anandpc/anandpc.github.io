@@ -1,0 +1,12 @@
+
+body{
+	background-color:#757575;
+}
+header{
+	background-color:#424242;
+	box-shadow: 5px 8px #616161;
+}
+img{
+	max-height:70px;
+	max-width:70px;
+}
