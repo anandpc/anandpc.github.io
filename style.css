@@ -1,19 +1,81 @@
-
+/* Global CSS */
+*{
+	padding: 0px;
+	margin:0px;
+}
+.clear-fix{
+	overflow: auto;
+}
 body{
-	background-color:#757575;
+	background: #33353A;
 }
-header{
-	background-color:#424242;
-	box-shadow: 5px 8px #616161;
+.container{
+	width:80%;
+	margin:auto;
+	font-size: 16px;
+	font-family: sans-serif;
 }
-footer{
-	color:#FAFAFA
+a{
+	color:white;
+	text-decoration: none;
+	font-size: 18px;
 }
-#logo{
-	max-height:70px;
-	max-width:70px;
+/* mouse over link */
+a:hover {
+		text-decoration: underline;
+    color: red;
 }
-#container>img{
-	max-height:800px;
-	max-width:600px;
+/* End of Global CSS */
+header img{
+	margin:10px;
+	height: 70px;
+	width: 80px;
+	float: left;
+}
+nav ul li{
+	display: block;
+	margin: 20px 5px;
+	padding: 10px 20px;
+	float: right;
+	border:1px solid white;
+
+}
+#cartoon{
+	float: left;
+	width: 600px;
+	height: 600px;
+	margin-top: 50px;
+}
+.info-container{
+	margin-top: 100px;
+	margin-right: 50px;
+	height: 500px;
+	width: 50%;
+	float: right;
+//	border: 1px solid white;
+}
+#info-heading{
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+#info-sub-heading{
+	letter-spacing: 2px;
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: helvetica;
+	line-height: 2em;
+}
+#info{
+	position: relative;
+	text-align: center;
+	color:white;
+	padding-top: 80px;
+	line-height: 2.0em;
+}
+footer div p{
+	margin: 10px 30px;
+	position: absolute;
+	color:white;
+	bottom: 0px;
+	right: 0px;
 }
