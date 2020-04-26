@@ -3,6 +3,9 @@
 	padding: 0px;
 	margin:0px;
 }
+.selector-for-some-widget {
+	box-sizing: content-box;
+  }
 .clear-fix{
 	overflow: auto;
 }
@@ -20,39 +23,11 @@ a{
 	text-decoration: none;
 	font-size: 18px;
 }
-/* mouse over link */
-a:hover {
-		text-decoration: underline;
-    color: red;
-}
-/* End of Global CSS */
-header img{
-	margin:10px;
-	height: 70px;
-	width: 80px;
-	float: left;
-}
-nav ul li{
-	display: block;
-	margin: 20px 5px;
-	padding: 10px 20px;
-	float: right;
-	border:1px solid white;
 
-}
-#cartoon{
-	float: left;
-	width: 600px;
-	height: 600px;
-	margin-top: 50px;
-}
+/* End of Global CSS */
+
 .info-container{
-	margin-top: 100px;
-	margin-right: 50px;
-	height: 500px;
-	width: 50%;
-	float: right;
-//	border: 1px solid white;
+	
 }
 #info-heading{
 	font-size: 50px;
