@@ -1,82 +1,52 @@
 /* Global CSS */
-*{
-	padding: 0px;
-	margin:0px;
-}
-.clear-fix{
-	overflow: auto;
-}
-body{
-	background: #33353A;
-}
-.container{
-	width:80%;
-	margin:auto;
-	font-size: 16px;
-	font-family: sans-serif;
-}
-a{
-	color:white;
-	text-decoration: none;
-	font-size: 18px;
-}
-/* mouse over link */
-a:hover {
-		text-decoration: underline;
-    color: red;
-}
-/* End of Global CSS */
-header img{
-	margin:10px;
-	height: 70px;
-	width: 80px;
-	float: left;
-}
-nav ul li{
-	display: block;
-	margin: 20px 5px;
-	padding: 10px 20px;
-	float: right;
-	border:1px solid white;
 
-}
-#cartoon{
-	float: left;
-	width: 600px;
-	height: 600px;
-	margin-top: 50px;
-}
-.info-container{
-	margin-top: 100px;
-	margin-right: 50px;
-	height: 500px;
-	width: 50%;
-	float: right;
-//	border: 1px solid white;
-}
-#info-heading{
-	font-size: 50px;
-	letter-spacing: 4px;
-}
-#info-sub-heading{
-	letter-spacing: 2px;
-	margin-top: 30px;
-	font-size: 30px;
-	font-family: helvetica;
-	line-height: 2em;
-}
-#info{
-	position: relative;
-	text-align: center;
-	color:white;
-	padding-top: 80px;
-	line-height: 2.0em;
-}
-footer div p{
-	margin: 10px 30px;
-	position: absolute;
-	color:white;
-	bottom: 0px;
-	right: 0px;
+body {
+    margin: 30px;
+    background: #33353A;
 }
 
+
+/****************************************/
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.fa {
+    color: white;
+    font-size: 48px;
+    margin: 10px;
+}
+
+.info {
+    text-align: center;
+}
+
+#info-heading {
+    color: white;
+    margin-top: 20px;
+}
+
+#info-sub-heading {
+    color: rgb(233, 227, 227);
+    margin-top: 20px;
+}
+
+#info-about {
+    color: rgb(233, 227, 227);
+    margin-top: 30px;
+}
+
+.avatar {
+    width: 240px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    border: solid 4px white;
+}
+
+.contact-icons {
+    margin-top: 30px;
+}
