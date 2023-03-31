@@ -1,0 +1,52 @@
+/* Global CSS */
+
+body {
+    margin: 30px;
+    background: #33353A;
+}
+
+
+/****************************************/
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.fa {
+    color: white;
+    font-size: 48px;
+    margin: 10px;
+}
+
+.info {
+    text-align: center;
+}
+
+#info-heading {
+    color: white;
+    margin-top: 20px;
+}
+
+#info-sub-heading {
+    color: rgb(233, 227, 227);
+    margin-top: 20px;
+}
+
+#info-about {
+    color: rgb(233, 227, 227);
+    margin-top: 30px;
+}
+
+.avatar {
+    width: 240px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    border: solid 4px white;
+}
+
+.contact-icons {
+    margin-top: 30px;
+}
